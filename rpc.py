@@ -3,18 +3,21 @@
 from pypresence import Presence
 from json import load
 from colorama import Fore, init
+from os import system
 import os
 import time
 import colorama
 
 # IMPORTS
 
-# Preparar comando para limpiar la consola
+# Preparativos
 
 def limpiarConsola():
     os.system('cls')
 
-# Preparar comando para limpiar la consola
+os.system('title KaydyRPC - discord.gg/comunidad - Customize your Rich Presence!')
+
+# Preparativos
 
 # JSON CONFIG
 
